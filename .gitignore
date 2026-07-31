@@ -1,0 +1,44 @@
+# --- runtime data (regenerated on demand) ---
+_DATA/master.db
+_DATA/master.db-wal
+_DATA/master.db-shm
+_DATA/manifest.json
+_DATA/logs/
+
+# --- generated reports & indexes ---
+REPORTING/master_index.csv
+REPORTING/STATUS_REPORT.md
+
+# --- intake drop zone is for runtime files only ---
+INTAKE/raw_video/*
+INTAKE/raw_docs/*
+INTAKE/unsorted/*
+INTAKE/quarantine/*
+!INTAKE/raw_video/.gitkeep
+!INTAKE/raw_docs/.gitkeep
+!INTAKE/unsorted/.gitkeep
+!INTAKE/quarantine/.gitkeep
+
+# --- archive holdings are user data ---
+ARCHIVE/*
+!ARCHIVE/.gitkeep
+PROCESSED/*
+!PROCESSED/.gitkeep
+
+# --- python ---
+__pycache__/
+*.py[cod]
+
+# --- build artifacts ---
+build/
+dist/
+*.spec
+
+# --- scratch / debug scripts ---
+_TEMP/
+
+# --- os junk ---
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/

@@ -1,0 +1,302 @@
+[
+  {
+    "name": "NASA UAP Science Portal",
+    "kind": "web",
+    "mode": "page",
+    "url": "https://science.nasa.gov/uap",
+    "category": "government_reports",
+    "priority": 1,
+    "item_kind": "document",
+    "verified": true
+  },
+  {
+    "name": "NASA UAP Independent Study Report (PDF)",
+    "kind": "web",
+    "mode": "file",
+    "url": "https://science.nasa.gov/wp-content/uploads/2023/09/uap-independent-study-team-final-report.pdf",
+    "category": "government_reports",
+    "priority": 1,
+    "item_kind": "document",
+    "verified": true
+  },
+  {
+    "name": "DVIDS - Official UAP Video & Imagery Search",
+    "kind": "web",
+    "mode": "page",
+    "url": "https://www.dvidshub.net/search/?q=unidentified+aerial+phenomenon",
+    "category": "authenticated",
+    "priority": 1,
+    "item_kind": "video",
+    "verified": true
+  },
+  {
+    "name": "National Archives - Search UAP",
+    "kind": "web",
+    "mode": "page",
+    "url": "https://catalog.archives.gov/search?q=%22unidentified%20aerial%20phenomena%22",
+    "category": "declassified",
+    "priority": 2,
+    "item_kind": "document",
+    "verified": true
+  },
+  {
+    "name": "NARA Catalog - Record Group 615 UAP Records Collection",
+    "kind": "web",
+    "mode": "page",
+    "url": "https://catalog.archives.gov/id/445887258",
+    "category": "declassified",
+    "priority": 2,
+    "item_kind": "document",
+    "verified": true
+  },
+  {
+    "name": "Project Blue Book Archive",
+    "kind": "web",
+    "mode": "page",
+    "url": "https://www.archives.gov/research/military/air-force/ufos",
+    "category": "declassified",
+    "priority": 2,
+    "item_kind": "document",
+    "verified": true
+  },
+  {
+    "name": "FBI Vault - UFO Files",
+    "kind": "web",
+    "mode": "page",
+    "url": "https://vault.fbi.gov/UFO",
+    "category": "declassified",
+    "priority": 2,
+    "item_kind": "document",
+    "verified": true
+  },
+  {
+    "name": "NARA Records of UAP",
+    "kind": "web",
+    "mode": "page",
+    "url": "https://www.archives.gov/research/topics/uaps",
+    "category": "declassified",
+    "priority": 2,
+    "item_kind": "document",
+    "verified": true
+  },
+  {
+    "name": "C-SPAN UAP Congressional Hearings",
+    "kind": "web",
+    "mode": "page",
+    "url": "https://www.c-span.org/search/?searchtype=Videos&query=UAP",
+    "category": "government_reports",
+    "priority": 2,
+    "item_kind": "video",
+    "verified": true
+  },
+  {
+    "name": "The Black Vault - FOIA UAP Library",
+    "kind": "web",
+    "mode": "page",
+    "url": "https://www.theblackvault.com/documentarchive/tag/uap/",
+    "category": "declassified",
+    "priority": 3,
+    "item_kind": "document",
+    "verified": false
+  },
+  {
+    "name": "MUFON - Case Files & Reports",
+    "kind": "web",
+    "mode": "page",
+    "url": "https://www.mufon.com/",
+    "category": "eyewitness_reports",
+    "priority": 3,
+    "item_kind": "document",
+    "verified": false
+  },
+  {
+    "name": "Wikipedia - Pentagon UAP Videos (Gimbal, GoFast, FLIR, 2023 MQ-9)",
+    "kind": "web",
+    "mode": "page",
+    "url": "https://en.wikipedia.org/wiki/Pentagon_UFO_videos",
+    "category": "authenticated",
+    "priority": 2,
+    "item_kind": "video",
+    "verified": false
+  },
+  {
+    "name": "Wikipedia - List of Reported UFO Sightings",
+    "kind": "web",
+    "mode": "page",
+    "url": "https://en.wikipedia.org/wiki/List_of_reported_UFO_sightings",
+    "category": "news_articles",
+    "priority": 4,
+    "item_kind": "document",
+    "verified": false
+  },
+  {
+    "name": "arXiv - UAP Scientific Papers",
+    "kind": "web",
+    "mode": "page",
+    "url": "https://arxiv.org/list/physics.gen-ph/recent",
+    "category": "scientific_papers",
+    "priority": 3,
+    "item_kind": "document",
+    "verified": false
+  },
+  {
+    "name": "Scientific American - UAP Coverage",
+    "kind": "web",
+    "mode": "page",
+    "url": "https://www.scientificamerican.com/article/unidentified-aerial-phenomena-better-known-as-ufos-deserve-scientific-investigation/",
+    "category": "scientific_papers",
+    "priority": 4,
+    "item_kind": "document",
+    "verified": false
+  },
+  {
+    "name": "NNSA - UAP/UFO Resources and Documents",
+    "kind": "web",
+    "mode": "page",
+    "url": "https://www.energy.gov/nnsa/uapufo-resources-and-documents",
+    "category": "declassified",
+    "priority": 4,
+    "item_kind": "document",
+    "verified": true
+  },
+  {
+    "name": "FBI Vault - Roswell Incident Files",
+    "kind": "web",
+    "mode": "page",
+    "url": "https://vault.fbi.gov/roswell",
+    "category": "declassified",
+    "priority": 3,
+    "item_kind": "document",
+    "verified": true
+  },
+  {
+    "name": "British National Archives - UFO Files",
+    "kind": "web",
+    "mode": "page",
+    "url": "https://www.nationalarchives.gov.uk/help-with-your-research/research-guides/ufos/",
+    "category": "declassified",
+    "priority": 3,
+    "item_kind": "document",
+    "verified": true
+  },
+  {
+    "name": "AARO Historical Record Report",
+    "kind": "web",
+    "mode": "page",
+    "url": "https://www.aaro.mil/AAROResearch/HistoricalRecordReport/",
+    "category": "government_reports",
+    "priority": 1,
+    "item_kind": "document",
+    "verified": true,
+    "enabled": false,
+    "note": "Bot-walled (HTTP 403, Cloudflare) - needs a JS browser; monitor manually at aaro.mil"
+  },
+  {
+    "name": "AARO UAP Resolution Database",
+    "kind": "web",
+    "mode": "page",
+    "url": "https://www.aaro.mil/UAP-Reporting/",
+    "category": "government_reports",
+    "priority": 1,
+    "item_kind": "document",
+    "verified": true,
+    "enabled": false,
+    "note": "Bot-walled (HTTP 403, Cloudflare) - needs a JS browser"
+  },
+  {
+    "name": "CIA Reading Room - UFO Search",
+    "kind": "web",
+    "mode": "page",
+    "url": "https://www.cia.gov/readingroom/search/site/ufo",
+    "category": "declassified",
+    "priority": 2,
+    "item_kind": "document",
+    "verified": true,
+    "enabled": false,
+    "note": "Redirects to /readingroom (bot redirect) - visit manually"
+  },
+  {
+    "name": "DIA - UAP & Advanced Aerospace",
+    "kind": "web",
+    "mode": "page",
+    "url": "https://www.dia.mil/Intelligence/",
+    "category": "declassified",
+    "priority": 3,
+    "item_kind": "document",
+    "verified": true,
+    "enabled": false,
+    "note": "Bot-walled (HTTP 403) - needs a JS browser"
+  },
+  {
+    "name": "Congress.gov UAP Hearing Records",
+    "kind": "web",
+    "mode": "page",
+    "url": "https://www.congress.gov/search?q=%22unidentified+aerial+phenomena%22",
+    "category": "government_reports",
+    "priority": 2,
+    "item_kind": "document",
+    "verified": true,
+    "enabled": false,
+    "note": "Bot-walled (HTTP 403) - visit congress.gov/search manually"
+  },
+  {
+    "name": "Government Accountability Office - UAP",
+    "kind": "web",
+    "mode": "page",
+    "url": "https://www.gao.gov/products/gao-22-105783",
+    "category": "government_reports",
+    "priority": 2,
+    "item_kind": "document",
+    "verified": true,
+    "enabled": false,
+    "note": "Bot-walled (HTTP 403, Akamai) - grab the PDF manually from gao.gov"
+  },
+  {
+    "name": "CFR - UAP Public Policy Documents",
+    "kind": "web",
+    "mode": "page",
+    "url": "https://www.congress.gov/crs-product",
+    "category": "government_reports",
+    "priority": 3,
+    "item_kind": "document",
+    "verified": true,
+    "enabled": false,
+    "note": "Bot-walled (HTTP 403, same host as Congress.gov)"
+  },
+  {
+    "name": "NUFORC - National UFO Reporting Center",
+    "kind": "web",
+    "mode": "page",
+    "url": "https://nuforc.org/",
+    "category": "eyewitness_reports",
+    "priority": 3,
+    "item_kind": "document",
+    "verified": false,
+    "enabled": false,
+    "note": "Bot-walled (HTTP 403) - browse reports manually at nuforc.org"
+  },
+  {
+    "name": "Arlington Post Hearings - Full Transmissions",
+    "kind": "web",
+    "mode": "page",
+    "url": "https://www.armed-services.senate.gov/hearings/23-04-19-military-intelligence-security-related-issues",
+    "category": "government_reports",
+    "priority": 2,
+    "item_kind": "document",
+    "verified": true,
+    "enabled": false,
+    "note": "Bot-walled (HTTP 403) - hearing footage is covered by the C-SPAN source"
+  },
+  {
+    "name": "Senate Armed Services - UAP Hearing",
+    "kind": "web",
+    "mode": "page",
+    "url": "https://www.armed-services.senate.gov/hearings/21-06-23-audio-clips-that-constitute-an-assessment",
+    "category": "government_reports",
+    "priority": 2,
+    "item_kind": "video",
+    "verified": true,
+    "enabled": false,
+    "note": "Bot-walled (HTTP 403) - hearing footage is covered by the C-SPAN source"
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "facility": {
+    "name": "AETHER FACILITY",
+    "version": "1.0.0",
+    "created": "2026-07-31"
+  },
+  "network": {
+    "rate_limit_seconds": 1.5,
+    "http_timeout": 30,
+    "max_download_bytes": 524288000,
+    "retries": 2,
+    "download": true
+  },
+  "storage": {
+    "database": "_DATA/master.db",
+    "manifest": "_DATA/manifest.json",
+    "max_file_size_mb": 500
+  },
+  "routing": {
+    "video": {
+      "authenticated": "government_reports",
+      "confirmed": "confirmed",
+      "unconfirmed": "unconfirmed",
+      "debunked": "debunked"
+    },
+    "document": {
+      "government_reports": "government_reports",
+      "declassified": "declassified",
+      "scientific_papers": "scientific_papers",
+      "news_articles": "news_articles",
+      "eyewitness_reports": "eyewitness_reports"
+    }
+  },
+  "sources_file": "_DATA/sources.json",
+  "auto_archive": false
+}
