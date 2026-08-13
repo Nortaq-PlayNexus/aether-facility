@@ -1,0 +1,79 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: windows-latest
+    strategy:
+      matrix:
+        python-version: ['3.8', '3.9', '3.10', '3.11', '3.12']
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+
+      - name: Run init
+        run: python _SCRIPTS\facility.py init
+
+      - name: Run report
+        run: python _SCRIPTS\facility.py report
+
+      - name: Run quick smoke test
+        run: python _SCRIPTS\facility.py run_once
+
+  lint:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install flake8
+        run: python -m pip install flake8
+
+      - name: Run flake8
+        run: |
+          flake8 _CORE _SCRIPTS --count --select=E9,F63,F7,F82 --show-source --statistics
+          flake8 _CORE _SCRIPTS --count --exit-zero --max-complexity=10 --max-line-length=120 --statistics
+
+  build-exe:
+    runs-on: windows-latest
+    needs: [test, lint]
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install PyInstaller
+        run: python -m pip install pyinstaller
+
+      - name: Build executable
+        run: |
+          python -m PyInstaller --onefile --name AETHER_FACILITY --paths _CORE _SCRIPTS\facility.py
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: AETHER_FACILITY.exe
+          path: dist/AETHER_FACILITY.exe
+          retention-days: 30
