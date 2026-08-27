@@ -1,8 +1,21 @@
-# AETHER FACILITY
+<p align="center">
+  <img src="docs/screenshots/banner.png" alt="AETHER FACILITY banner" />
+</p>
 
-![banner](docs/screenshots/banner.png)
+<h1 align="center">AETHER FACILITY</h1>
 
-**Military-grade research scaffold for collecting, verifying, and organizing public UFO/UAP videos, documents, and images — all in one place.**
+<p align="center">
+  <strong>Military-grade research scaffold for collecting, verifying, and organizing public UFO/UAP videos, documents, and images — all in one place.</strong>
+</p>
+
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License: MIT"></a>
+  <img src="https://img.shields.io/badge/python-3.8%2B-yellow.svg" alt="Python 3.8+">
+  <img src="https://img.shields.io/badge/pip%20deps-zero-brightgreen.svg" alt="Zero Dependencies">
+  <img src="https://img.shields.io/badge/platform-Windows-lightgrey.svg" alt="Platform: Windows">
+</p>
+
+---
 
 AETHER FACILITY is a self-contained, stdlib-only Python tool that polls vetted public
 sources (NASA, NARA, FBI Vault, C-SPAN hearings, arXiv, and more), fingerprints every
@@ -17,6 +30,8 @@ curated archive, and regenerates a human-readable status report.
 | Output | `STATUS_REPORT.md`, `master_index.csv`, JSON manifest, SQLite index |
 | License | [MIT](LICENSE) |
 
+---
+
 ## Screenshots
 
 Command Center menu             | Scout sweep (live indexing)
@@ -26,6 +41,8 @@ Command Center menu             | Scout sweep (live indexing)
 Bootstrap                     | Reporting
 :----------------------------:|:--------------------------------:
 ![init](docs/screenshots/init.png) | ![report](docs/screenshots/report.png)
+
+---
 
 ## Quick start
 
@@ -49,6 +66,8 @@ or directly:
 python _SCRIPTS\facility.py menu
 ```
 
+---
+
 ## Workflow
 
 ```
@@ -69,6 +88,8 @@ python _SCRIPTS\facility.py menu
 4. **Report** — regenerates `REPORTING\STATUS_REPORT.md`, `master_index.csv`, and
    `_DATA\manifest.json`.
 
+---
+
 ## CLI
 
 ```
@@ -81,6 +102,8 @@ python _SCRIPTS\facility.py report      regenerate report + manifest
 python _SCRIPTS\facility.py run_once    init + ingest + scout + archive + report
 python _SCRIPTS\facility.py menu        interactive control panel
 ```
+
+---
 
 ## Directory map
 
@@ -107,6 +130,8 @@ AETHER_FACILITY/
 └─ docs/
 ```
 
+---
+
 ## Building the exe
 
 ```bat
@@ -118,6 +143,8 @@ python -m PyInstaller --onefile --name AETHER_FACILITY --paths _CORE _SCRIPTS\fa
 The standalone exe resolves `CONFIG.json`, `_DATA/`, etc. relative to its own
 location, so keep it inside the facility root.
 
+---
+
 ## Notes & ethics
 
 - Sources are public/government sites; the scout uses a polite rate limit and captures
@@ -125,6 +152,14 @@ location, so keep it inside the facility root.
 - Every item is SHA-256 fingerprinted; integrity and dedup are automatic.
 - The `verified` flag marks items from government/published sources vs. unconfirmed
   reports. Always corroborate — this tool organizes evidence, it does not judge it.
+
+---
+
+## Contributing
+
+Contributions are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
+
+---
 
 ## License
 
